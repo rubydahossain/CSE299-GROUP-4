@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.main_body{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.left{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 25%;
+    color: white;
+    left: 0;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+   
+    background-color:lightblue ;
+    color: white;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+
+.dgda{
+    display: flex;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    box-sizing: 1px;
+    border-style: solid;
+    border-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.img{
+    display: flex;
+    
+    height: 85px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+
+}
+
+.dtitle{
+    display: flex;
+    font-family:'Roboto', Courier, monospace;
+    font-size: 30px;
+    color: black;
+    padding: 4px;
+    align-items: center;
+    
+    
+    
+    font-size: bold;
+
+}
+
+
+ .search-section{
+    display: flex;
+    width: 566px;
+    justify-content: center;
+    margin-left: 70px;
+
+    margin-top: 50px; 
+    
+
+}
+.search-bar{
+    display: flex;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1pxn 2px 3px rgba(0,0,0,0.05);
+    width: 500px;
+    justify-content: center;
+}
+
+.search-bar::placeholder{
+    font-family:'Roboto', Courier, monospace;
+    font-size: 16px;
+}
+.search-button{
+    height: 40px;
+    width:66px;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: rgb(192,192,192);
+    margin-left: -1px;
+    
+
+}
+.search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search-button .tool-tip{
+    font-family: 'Roboto', Courier, monospace;
+    font-size: 12px;
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    top: 42px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-button:hover .tool-tip{
+    opacity: 1;
+}
+.search-icon{
+    height: 25px;
+}
+
+
+.right{
+    display: flex;
+    
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 25%;
+    color: white;
+    right: 0;
+}
